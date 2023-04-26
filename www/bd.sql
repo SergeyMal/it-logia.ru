@@ -97,3 +97,13 @@ ALTER TABLE `user`
 
 --
 -- AUTO_INCREMENT для таблицы `lesson`
+--
+ALTER TABLE `lesson`
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+
+--
+-- AUTO_INCREMENT для таблицы `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+COMMIT;
