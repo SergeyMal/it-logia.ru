@@ -22,7 +22,7 @@ $this->title = 'Урок: '.$data['name'];
                                 dataType: 'json',
                                 data: { id_lesson: $('#id_lesson').val(), action : 'true' },
                                 success: function(data) { 
-                                if (data = null){
+                                if (data != null){
                                     $('#name_lesson').html(data['name']);
                                     $('#comment').html(data['comment']);
                                     $('#youtube').html(data['youtube_url']);
